@@ -1,0 +1,51 @@
+.app-container {
+  background-color: #f5d0fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.editable-card {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.input-editable-container {
+  display: flex;
+  margin-top: 20px;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.input {
+  background-color: transparent;
+  border: 1px solid #323f4b;
+  outline: none;
+  color: #000000;
+  margin-right: 10px;
+}
+.button {
+  background-color: #d946ef;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.description {
+  color: #000000;
+  margin-right: 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
